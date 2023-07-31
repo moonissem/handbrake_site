@@ -1,0 +1,306 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1540px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* -- HEADER START-- */
+
+#header {
+  background-color: #1391ce;
+}
+
+.header-side {
+  padding: 55px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #25468a;
+}
+
+.header-img {
+  display: flex;
+  align-items: center;
+}
+
+.header-sections {
+  margin-left: 800px;
+}
+
+.header-sections a {
+  padding: 0 15px;
+}
+
+.header-btn button {
+  padding: 9px 18px;
+  align-items: center;
+  color: #14274c;
+  border-radius: 14px;
+  border: none;
+}
+
+/* -- HEADER END-- */
+
+/* -- HANDBRAKE START --  */
+
+#handbrake {
+  background-color: #1391ce;
+}
+
+.handbrake-is {
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.handbrake-is-txt h1 {
+  width: 560px;
+  height: 108px;
+  color: #25468a;
+  font-size: 92px;
+  font-weight: 700;
+}
+
+.handbrake-is-txt h3 {
+  width: 560px;
+  height: 24px;
+  color: #3b4a6b;
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.handbrake-is-txt p {
+  width: 560px;
+  height: 55px;
+  padding-top: 45px;
+  color: #3b4a6b;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.handbrake-is-btn button {
+  margin-top: 75px;
+  display: flex;
+  width: 263.529px;
+  padding: 15px 55px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  border-radius: 26px;
+  background: #f7ba0e;
+  color: #3b4a6b;
+  border: none;
+}
+
+/* -- HANDBRAKE END --  */
+
+/* -- HANDBRAKE SECTIONS START --  */
+
+#handbrake-sections {
+  background-color: #e9f5ff;
+}
+
+.cards-row {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 150px;
+}
+
+.handbrake-cards {
+  width: 352px;
+  height: 189px;
+  border-radius: 8px;
+  background: #1391ce;
+  color: #fff;
+  text-align: center;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  padding: 0px 30px;
+}
+
+.handbrake-cards p {
+  text-align: center;
+  /* letter-spacing: 0.88px; */
+}
+
+.handbrake-sections-txt {
+  padding-top: 65px;
+  padding-bottom: 65px;
+  color: #1391ce;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 300;
+}
+
+/* -- HANDBRAKE SECTIONS END --  */
+
+/* -- HANDBRAKE TO USE START -- */
+
+.handbrake-use {
+  padding-bottom: 64px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.handbrake-use-txt {
+  color: #25468a;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.handbrake-use-txt p {
+  padding-bottom: 16px;
+  font-size: 20px;
+}
+
+.handbrake-use-txt h2 {
+  padding-bottom: 32px;
+  color: #1391ce;
+  font-size: 32px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.use-txt {
+    width: 500px;
+    color: #4f4f4f;
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+
+
+/* -- HANDBRAKE TO USE END -- */
+
+/* -- HANDBRAKE VIDEO FORMATS START -- */
+
+.handbrake-video-formats {
+  display: flex;
+  justify-content: space-between;
+}
+
+.handbrake-video-formats-txt p {
+  padding-bottom: 16px;
+  color: #25468a;
+  font-size: 20px;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+.handbrake-video-formats-txt h1 {
+  color: #1391ce;
+  font-size: 32px;
+}
+
+.use-txt-2 {
+  color: #4f4f4f !important;
+  font-size: 18px;
+}
+
+.handbrake-video-formats-txt h3 {
+  color: #1391ce;
+  font-size: 25px;
+}
+
+.outputs {
+    display: flex;
+    align-items: center;
+}
+
+.outputs p {
+    padding: 0 !important;
+    font-size: 16px;
+    margin-left: 10px;
+    color: #4F4F4F;
+}
+
+.outputs img, p {
+    margin-top: 30px;
+}
+
+/* -- HANDBRAKE VIDEO FORMATS END -- */
+
+/* -- HANDBRAKE FEATURES START -- */
+
+.handbrake-features {
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.handbrake-features-txt span {
+    color: #25468A;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.handbrake-features-txt h1 {
+    color: #1391ce;
+    font-size: 32px;
+}
+
+.outputs-2 {
+    margin-right: 80px;
+}
+
+.outputs-2 p, img{
+    padding: 10px;
+    margin: 0 !important;
+}
+
+/* -- HANDBRAKE FEATURES END --  */
+
+/* FOOTER START */
+
+#footer {
+    background-color: #1391CE;
+}
+
+.hr {
+    padding: 30px 0px 30px;
+}
+
+.footer-site {
+    padding: 32px 0 58px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    color: #302E2F;
+}
+
+.footer-p p{
+    margin: 0 !important;
+}
+
+.footer-p span {
+    color: white;
+}
+
+.footer-a a {
+    color: #302E2F;
+}
+
+.a {
+    color: white !important;
+}
+
+/* FOOTER END */
+
